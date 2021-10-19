@@ -148,7 +148,7 @@ AddEventHandler("esx_cat_diving:happimaskipois", function()
             }
         }, function(cancelled)
             if not cancelled then
-                DetachEntity(prap)
+                DetachEntity(prap) --Jos haluut että pelaajat ei istuta näitä ympäri mappia nii vaiha DetachEntity ->> DeleteEntity
                 DetachEntity(prop)
                 SetPedDiesInWater(PlayerPedId(), true)
                 varusteetPaalla = false
