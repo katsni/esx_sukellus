@@ -1,4 +1,4 @@
-local cachedcoords = {}
+local cachedcoords = {} --joo tba
 local tutkitaan = false
 local prop = nil
 local prap = nil
